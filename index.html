@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Embedding with Toby 🦖</title>
+</head>
+<body>
+
+    <h1>Welcome Back to School, Embedding with Toby</h1>
+    <h2>This is an h2</h2>
+    <h3>This in an h3</h3>
+    
+    <div class="content"> 
+        <tableau-viz id="tableauViz"       
+            src='https://public.tableau.com/views/Superstore_embedded_800x800/Overview'      
+            toolbar="bottom" hide-tabs>
+        </tableau-viz>
+    </div>
+    <script type="module" src="https://public.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js"></script>
+
+    <script src="app.js"></script>
+
+</body>
+</html>
